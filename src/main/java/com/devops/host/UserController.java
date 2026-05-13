@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String user(){
-        return "user logged in";
+        return "user logged in ....";
     }
 }
